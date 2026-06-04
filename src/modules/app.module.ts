@@ -7,6 +7,7 @@ import { AuthModule } from '../modules/providers/auth.module';
 import { CategoriaModule } from '../modules/providers/categoria.module';
 import { ProductoModule } from '../modules/providers/producto.module';
 import { MovementsModule } from '../modules/providers/movements.module';
+import { StudentsModule } from '../modules/providers/students.module';
 import { WebsocketModule } from '../websocket/websocket.module';
 
 @Module({
@@ -23,6 +24,7 @@ import { WebsocketModule } from '../websocket/websocket.module';
     CategoriaModule,
     ProductoModule,
     MovementsModule,
+    StudentsModule,
     WebsocketModule,
   ],
   providers: [
